@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-const like = props => {
+const Like = props => {
   let classes = "fa fa-heart";
   if (!props.liked) classes += "-o";
   return (
@@ -12,4 +12,4 @@ const like = props => {
   );
 };
 
-export default like;
+export default Like;
